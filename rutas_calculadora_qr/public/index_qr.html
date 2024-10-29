@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Código QR</title>
+  <link rel="stylesheet" href="estilos_qr.css">
+</head>
+<body>
+  <header>
+    <p>CRISTIAN CRUZ: 319008858</p>
+  </header>
+  <div class="contenedor">
+    <h1>Generador de Código QR</h1>
+    <input type="text" id="inputTexto" placeholder="Ingresa texto o URL" />
+    <button id="btnGenerar">Generar QR</button>
+    <canvas id="codigoQR"></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+  <script src="app_qr.js"></script>
+</body>
+</html>
