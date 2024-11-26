@@ -33,9 +33,16 @@ db.connect(err => {
 });
 
 // Iniciar el servidor
+/*
 const port = 3009;
 app.listen(port, '0.0.0.0', () => {
     console.log(`Servidor en funcionamiento desde http://192.168.100.25:${port}`);
+});
+*/
+
+const port = 3009;
+app.listen(port,()=>{
+    console.log(`Servidor en funcionamiento desde http://localhost:${port}`);
 });
 
 // Ruta principal: mostrar la lista de usuarios
